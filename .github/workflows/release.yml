@@ -2,7 +2,7 @@ name: Generate Artifacts
 on:
   push:
     tags: [ v* ]
-
+    workflow_dispatch:
 jobs:
   build-artifacts:
     permissions:
